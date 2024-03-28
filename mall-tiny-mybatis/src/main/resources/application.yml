@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: mall-tiny-mybatis
+  datasource:
+    url: jdbc:mysql://localhost:3306/mall_tiny?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+
+server:
+  port: 8080
+
+mybatis:
+  mapper-locations:
+    - classpath:dao/*.xml
+  #下划线自动转驼峰（数据库中是下划线，在代码中字段是驼峰）
+#  configuration:
+#    map-underscore-to-camel-case: true
