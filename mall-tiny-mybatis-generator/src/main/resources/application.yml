@@ -1,3 +1,4 @@
+# 数据源配置
 spring:
   application:
     name: mall-tiny-mybatis-generator
@@ -6,8 +7,8 @@ spring:
     username: root
     password: root
 
-
+# MyBatis mapper.xml路径配置
 mybatis:
   mapper-locations:
-    - classpath:dao/*.xml
-    - classpath*:com/**/mapper/*.xml
+    - classpath:dao/*.xml # 自定义的目录
+    - classpath*:com/**/mapper/*.xml # 自动生成的目录

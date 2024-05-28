@@ -8,6 +8,9 @@ import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
+/**
+ * 自定义实现SQL，UmsAdmin自定义Dao
+ */
 public interface UmsAdminDao {
     List<RoleStatDto> groupList();
 
