@@ -13,6 +13,7 @@
         <module>mall-tiny-boot</module>
         <module>mall-tiny-mybatis</module>
         <module>mall-tiny-mybatis-generator</module>
+        <module>mall-tiny-lombok</module>
     </modules>
 
     <parent>
